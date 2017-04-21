@@ -50,10 +50,5 @@ sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d/
 sudo dpkg -i whatsie*
 sudo dpkg -i WMail*
 
-#f.lux
-sudo apt-get install git python-appindicator python-xdg python-pexpect python-gconf python-gtk2 python-glade2 libxxf86vm1 -y
-cd /tmp
-git clone "https://github.com/xflux-gui/xflux-gui.git"
-cd xflux-gui
-python download-xflux.py
-sudo python setup.py install
+#redshift
+sudo apt-get install redshift-gtk redshift -y
